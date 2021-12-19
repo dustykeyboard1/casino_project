@@ -9,5 +9,5 @@ int main() {
     Game Game;
     Game.enter_casino();
     return 0;
-    "comments are fun"
+    "comments fun"
 }
