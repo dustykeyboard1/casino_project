@@ -1,6 +1,6 @@
-CMakeFiles/Project01.dir/SlotMachine.cpp.o: \
-  /Users/michaelscoleri/Documents/Coding/Personal/C++/casino_project/SlotMachine.cpp \
-  /Users/michaelscoleri/Documents/Coding/Personal/C++/casino_project/SlotMachine.h \
+CMakeFiles/Project01.dir/Cards.cpp.o: \
+  /Users/michaelscoleri/Documents/Coding/Personal/C++/casino_project/Cards.cpp \
+  /Users/michaelscoleri/Documents/Coding/Personal/C++/casino_project/Cards.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/pthread.h \

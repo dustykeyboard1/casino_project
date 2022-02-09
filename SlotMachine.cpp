@@ -1,5 +1,5 @@
 #include "SlotMachine.h"
-#include "Game.h"
+//#include "Game.h"
 
 size_t SlotMachine::play_game(size_t _wager) {
         srand(time(0));

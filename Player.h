@@ -13,6 +13,7 @@ class Player {
         int _balance;
         int  _start;
     public:
+        //Player();
         void set_wager();
         void set_balance();
         void subtract_balance(size_t amount);

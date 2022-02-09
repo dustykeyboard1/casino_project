@@ -1,6 +1,6 @@
 CMakeFiles/Project01.dir/Player.cpp.o: \
-  /Users/michaelscoleri/Documents/Coding/Personal/casino_project/Player.cpp \
-  /Users/michaelscoleri/Documents/Coding/Personal/casino_project/Player.h \
+  /Users/michaelscoleri/Documents/Coding/Personal/C++/casino_project/Player.cpp \
+  /Users/michaelscoleri/Documents/Coding/Personal/C++/casino_project/Player.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/pthread.h \

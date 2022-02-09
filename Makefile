@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.22.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/michaelscoleri/Documents/Coding/Personal/casino_project
+CMAKE_SOURCE_DIR = /Users/michaelscoleri/Documents/Coding/Personal/C++/casino_project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/michaelscoleri/Documents/Coding/Personal/casino_project
+CMAKE_BINARY_DIR = /Users/michaelscoleri/Documents/Coding/Personal/C++/casino_project
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/michaelscoleri/Documents/Coding/Personal/casino_project/CMakeFiles /Users/michaelscoleri/Documents/Coding/Personal/casino_project//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/michaelscoleri/Documents/Coding/Personal/C++/casino_project/CMakeFiles /Users/michaelscoleri/Documents/Coding/Personal/C++/casino_project//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/michaelscoleri/Documents/Coding/Personal/casino_project/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/michaelscoleri/Documents/Coding/Personal/C++/casino_project/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -128,6 +128,30 @@ Project01: cmake_check_build_system
 Project01/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project01.dir/build.make CMakeFiles/Project01.dir/build
 .PHONY : Project01/fast
+
+Cards.o: Cards.cpp.o
+.PHONY : Cards.o
+
+# target to build an object file
+Cards.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project01.dir/build.make CMakeFiles/Project01.dir/Cards.cpp.o
+.PHONY : Cards.cpp.o
+
+Cards.i: Cards.cpp.i
+.PHONY : Cards.i
+
+# target to preprocess a source file
+Cards.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project01.dir/build.make CMakeFiles/Project01.dir/Cards.cpp.i
+.PHONY : Cards.cpp.i
+
+Cards.s: Cards.cpp.s
+.PHONY : Cards.s
+
+# target to generate assembly for a file
+Cards.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project01.dir/build.make CMakeFiles/Project01.dir/Cards.cpp.s
+.PHONY : Cards.cpp.s
 
 Game.o: Game.cpp.o
 .PHONY : Game.o
@@ -225,6 +249,30 @@ SlotMachine.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project01.dir/build.make CMakeFiles/Project01.dir/SlotMachine.cpp.s
 .PHONY : SlotMachine.cpp.s
 
+blackjack.o: blackjack.cpp.o
+.PHONY : blackjack.o
+
+# target to build an object file
+blackjack.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project01.dir/build.make CMakeFiles/Project01.dir/blackjack.cpp.o
+.PHONY : blackjack.cpp.o
+
+blackjack.i: blackjack.cpp.i
+.PHONY : blackjack.i
+
+# target to preprocess a source file
+blackjack.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project01.dir/build.make CMakeFiles/Project01.dir/blackjack.cpp.i
+.PHONY : blackjack.cpp.i
+
+blackjack.s: blackjack.cpp.s
+.PHONY : blackjack.s
+
+# target to generate assembly for a file
+blackjack.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project01.dir/build.make CMakeFiles/Project01.dir/blackjack.cpp.s
+.PHONY : blackjack.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -234,6 +282,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Project01"
+	@echo "... Cards.o"
+	@echo "... Cards.i"
+	@echo "... Cards.s"
 	@echo "... Game.o"
 	@echo "... Game.i"
 	@echo "... Game.s"
@@ -246,6 +297,9 @@ help:
 	@echo "... SlotMachine.o"
 	@echo "... SlotMachine.i"
 	@echo "... SlotMachine.s"
+	@echo "... blackjack.o"
+	@echo "... blackjack.i"
+	@echo "... blackjack.s"
 .PHONY : help
 
 

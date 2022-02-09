@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Project01.dir/Cards.cpp.o"
+  "CMakeFiles/Project01.dir/Cards.cpp.o.d"
   "CMakeFiles/Project01.dir/Game.cpp.o"
   "CMakeFiles/Project01.dir/Game.cpp.o.d"
   "CMakeFiles/Project01.dir/Player.cpp.o"
@@ -7,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Project01.dir/Project01.cpp.o.d"
   "CMakeFiles/Project01.dir/SlotMachine.cpp.o"
   "CMakeFiles/Project01.dir/SlotMachine.cpp.o.d"
+  "CMakeFiles/Project01.dir/blackjack.cpp.o"
+  "CMakeFiles/Project01.dir/blackjack.cpp.o.d"
   "Project01"
   "Project01.pdb"
 )

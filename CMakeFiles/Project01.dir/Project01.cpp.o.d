@@ -1,6 +1,6 @@
 CMakeFiles/Project01.dir/Project01.cpp.o: \
-  /Users/michaelscoleri/Documents/Coding/Personal/casino_project/Project01.cpp \
-  /Users/michaelscoleri/Documents/Coding/Personal/casino_project/Game.h \
+  /Users/michaelscoleri/Documents/Coding/Personal/C++/casino_project/Project01.cpp \
+  /Users/michaelscoleri/Documents/Coding/Personal/C++/casino_project/Game.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/pthread.h \
@@ -231,11 +231,13 @@ CMakeFiles/Project01.dir/Project01.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/bitset \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__bit_reference \
-  /Users/michaelscoleri/Documents/Coding/Personal/casino_project/Player.h \
+  /Users/michaelscoleri/Documents/Coding/Personal/C++/casino_project/Player.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/iomanip \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/cmath \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/math.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/math.h \
-  /Users/michaelscoleri/Documents/Coding/Personal/casino_project/SlotMachine.h \
+  /Users/michaelscoleri/Documents/Coding/Personal/C++/casino_project/SlotMachine.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/vector \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__split_buffer
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__split_buffer \
+  /Users/michaelscoleri/Documents/Coding/Personal/C++/casino_project/blackjack.h \
+  /Users/michaelscoleri/Documents/Coding/Personal/C++/casino_project/Cards.h

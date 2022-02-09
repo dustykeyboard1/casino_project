@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.22.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/michaelscoleri/Documents/Coding/Personal/casino_project
+CMAKE_SOURCE_DIR = /Users/michaelscoleri/Documents/Coding/Personal/C++/casino_project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/michaelscoleri/Documents/Coding/Personal/casino_project
+CMAKE_BINARY_DIR = /Users/michaelscoleri/Documents/Coding/Personal/C++/casino_project
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Project01.dir/depend.make
@@ -72,65 +72,95 @@ include CMakeFiles/Project01.dir/flags.make
 CMakeFiles/Project01.dir/Project01.cpp.o: CMakeFiles/Project01.dir/flags.make
 CMakeFiles/Project01.dir/Project01.cpp.o: Project01.cpp
 CMakeFiles/Project01.dir/Project01.cpp.o: CMakeFiles/Project01.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michaelscoleri/Documents/Coding/Personal/casino_project/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Project01.dir/Project01.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Project01.dir/Project01.cpp.o -MF CMakeFiles/Project01.dir/Project01.cpp.o.d -o CMakeFiles/Project01.dir/Project01.cpp.o -c /Users/michaelscoleri/Documents/Coding/Personal/casino_project/Project01.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michaelscoleri/Documents/Coding/Personal/C++/casino_project/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Project01.dir/Project01.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Project01.dir/Project01.cpp.o -MF CMakeFiles/Project01.dir/Project01.cpp.o.d -o CMakeFiles/Project01.dir/Project01.cpp.o -c /Users/michaelscoleri/Documents/Coding/Personal/C++/casino_project/Project01.cpp
 
 CMakeFiles/Project01.dir/Project01.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project01.dir/Project01.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/michaelscoleri/Documents/Coding/Personal/casino_project/Project01.cpp > CMakeFiles/Project01.dir/Project01.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/michaelscoleri/Documents/Coding/Personal/C++/casino_project/Project01.cpp > CMakeFiles/Project01.dir/Project01.cpp.i
 
 CMakeFiles/Project01.dir/Project01.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project01.dir/Project01.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/michaelscoleri/Documents/Coding/Personal/casino_project/Project01.cpp -o CMakeFiles/Project01.dir/Project01.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/michaelscoleri/Documents/Coding/Personal/C++/casino_project/Project01.cpp -o CMakeFiles/Project01.dir/Project01.cpp.s
 
 CMakeFiles/Project01.dir/SlotMachine.cpp.o: CMakeFiles/Project01.dir/flags.make
 CMakeFiles/Project01.dir/SlotMachine.cpp.o: SlotMachine.cpp
 CMakeFiles/Project01.dir/SlotMachine.cpp.o: CMakeFiles/Project01.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michaelscoleri/Documents/Coding/Personal/casino_project/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Project01.dir/SlotMachine.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Project01.dir/SlotMachine.cpp.o -MF CMakeFiles/Project01.dir/SlotMachine.cpp.o.d -o CMakeFiles/Project01.dir/SlotMachine.cpp.o -c /Users/michaelscoleri/Documents/Coding/Personal/casino_project/SlotMachine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michaelscoleri/Documents/Coding/Personal/C++/casino_project/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Project01.dir/SlotMachine.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Project01.dir/SlotMachine.cpp.o -MF CMakeFiles/Project01.dir/SlotMachine.cpp.o.d -o CMakeFiles/Project01.dir/SlotMachine.cpp.o -c /Users/michaelscoleri/Documents/Coding/Personal/C++/casino_project/SlotMachine.cpp
 
 CMakeFiles/Project01.dir/SlotMachine.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project01.dir/SlotMachine.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/michaelscoleri/Documents/Coding/Personal/casino_project/SlotMachine.cpp > CMakeFiles/Project01.dir/SlotMachine.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/michaelscoleri/Documents/Coding/Personal/C++/casino_project/SlotMachine.cpp > CMakeFiles/Project01.dir/SlotMachine.cpp.i
 
 CMakeFiles/Project01.dir/SlotMachine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project01.dir/SlotMachine.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/michaelscoleri/Documents/Coding/Personal/casino_project/SlotMachine.cpp -o CMakeFiles/Project01.dir/SlotMachine.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/michaelscoleri/Documents/Coding/Personal/C++/casino_project/SlotMachine.cpp -o CMakeFiles/Project01.dir/SlotMachine.cpp.s
 
 CMakeFiles/Project01.dir/Player.cpp.o: CMakeFiles/Project01.dir/flags.make
 CMakeFiles/Project01.dir/Player.cpp.o: Player.cpp
 CMakeFiles/Project01.dir/Player.cpp.o: CMakeFiles/Project01.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michaelscoleri/Documents/Coding/Personal/casino_project/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Project01.dir/Player.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Project01.dir/Player.cpp.o -MF CMakeFiles/Project01.dir/Player.cpp.o.d -o CMakeFiles/Project01.dir/Player.cpp.o -c /Users/michaelscoleri/Documents/Coding/Personal/casino_project/Player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michaelscoleri/Documents/Coding/Personal/C++/casino_project/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Project01.dir/Player.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Project01.dir/Player.cpp.o -MF CMakeFiles/Project01.dir/Player.cpp.o.d -o CMakeFiles/Project01.dir/Player.cpp.o -c /Users/michaelscoleri/Documents/Coding/Personal/C++/casino_project/Player.cpp
 
 CMakeFiles/Project01.dir/Player.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project01.dir/Player.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/michaelscoleri/Documents/Coding/Personal/casino_project/Player.cpp > CMakeFiles/Project01.dir/Player.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/michaelscoleri/Documents/Coding/Personal/C++/casino_project/Player.cpp > CMakeFiles/Project01.dir/Player.cpp.i
 
 CMakeFiles/Project01.dir/Player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project01.dir/Player.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/michaelscoleri/Documents/Coding/Personal/casino_project/Player.cpp -o CMakeFiles/Project01.dir/Player.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/michaelscoleri/Documents/Coding/Personal/C++/casino_project/Player.cpp -o CMakeFiles/Project01.dir/Player.cpp.s
 
 CMakeFiles/Project01.dir/Game.cpp.o: CMakeFiles/Project01.dir/flags.make
 CMakeFiles/Project01.dir/Game.cpp.o: Game.cpp
 CMakeFiles/Project01.dir/Game.cpp.o: CMakeFiles/Project01.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michaelscoleri/Documents/Coding/Personal/casino_project/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Project01.dir/Game.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Project01.dir/Game.cpp.o -MF CMakeFiles/Project01.dir/Game.cpp.o.d -o CMakeFiles/Project01.dir/Game.cpp.o -c /Users/michaelscoleri/Documents/Coding/Personal/casino_project/Game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michaelscoleri/Documents/Coding/Personal/C++/casino_project/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Project01.dir/Game.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Project01.dir/Game.cpp.o -MF CMakeFiles/Project01.dir/Game.cpp.o.d -o CMakeFiles/Project01.dir/Game.cpp.o -c /Users/michaelscoleri/Documents/Coding/Personal/C++/casino_project/Game.cpp
 
 CMakeFiles/Project01.dir/Game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project01.dir/Game.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/michaelscoleri/Documents/Coding/Personal/casino_project/Game.cpp > CMakeFiles/Project01.dir/Game.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/michaelscoleri/Documents/Coding/Personal/C++/casino_project/Game.cpp > CMakeFiles/Project01.dir/Game.cpp.i
 
 CMakeFiles/Project01.dir/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project01.dir/Game.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/michaelscoleri/Documents/Coding/Personal/casino_project/Game.cpp -o CMakeFiles/Project01.dir/Game.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/michaelscoleri/Documents/Coding/Personal/C++/casino_project/Game.cpp -o CMakeFiles/Project01.dir/Game.cpp.s
+
+CMakeFiles/Project01.dir/blackjack.cpp.o: CMakeFiles/Project01.dir/flags.make
+CMakeFiles/Project01.dir/blackjack.cpp.o: blackjack.cpp
+CMakeFiles/Project01.dir/blackjack.cpp.o: CMakeFiles/Project01.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michaelscoleri/Documents/Coding/Personal/C++/casino_project/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Project01.dir/blackjack.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Project01.dir/blackjack.cpp.o -MF CMakeFiles/Project01.dir/blackjack.cpp.o.d -o CMakeFiles/Project01.dir/blackjack.cpp.o -c /Users/michaelscoleri/Documents/Coding/Personal/C++/casino_project/blackjack.cpp
+
+CMakeFiles/Project01.dir/blackjack.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project01.dir/blackjack.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/michaelscoleri/Documents/Coding/Personal/C++/casino_project/blackjack.cpp > CMakeFiles/Project01.dir/blackjack.cpp.i
+
+CMakeFiles/Project01.dir/blackjack.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project01.dir/blackjack.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/michaelscoleri/Documents/Coding/Personal/C++/casino_project/blackjack.cpp -o CMakeFiles/Project01.dir/blackjack.cpp.s
+
+CMakeFiles/Project01.dir/Cards.cpp.o: CMakeFiles/Project01.dir/flags.make
+CMakeFiles/Project01.dir/Cards.cpp.o: Cards.cpp
+CMakeFiles/Project01.dir/Cards.cpp.o: CMakeFiles/Project01.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michaelscoleri/Documents/Coding/Personal/C++/casino_project/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Project01.dir/Cards.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Project01.dir/Cards.cpp.o -MF CMakeFiles/Project01.dir/Cards.cpp.o.d -o CMakeFiles/Project01.dir/Cards.cpp.o -c /Users/michaelscoleri/Documents/Coding/Personal/C++/casino_project/Cards.cpp
+
+CMakeFiles/Project01.dir/Cards.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project01.dir/Cards.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/michaelscoleri/Documents/Coding/Personal/C++/casino_project/Cards.cpp > CMakeFiles/Project01.dir/Cards.cpp.i
+
+CMakeFiles/Project01.dir/Cards.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project01.dir/Cards.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/michaelscoleri/Documents/Coding/Personal/C++/casino_project/Cards.cpp -o CMakeFiles/Project01.dir/Cards.cpp.s
 
 # Object files for target Project01
 Project01_OBJECTS = \
 "CMakeFiles/Project01.dir/Project01.cpp.o" \
 "CMakeFiles/Project01.dir/SlotMachine.cpp.o" \
 "CMakeFiles/Project01.dir/Player.cpp.o" \
-"CMakeFiles/Project01.dir/Game.cpp.o"
+"CMakeFiles/Project01.dir/Game.cpp.o" \
+"CMakeFiles/Project01.dir/blackjack.cpp.o" \
+"CMakeFiles/Project01.dir/Cards.cpp.o"
 
 # External object files for target Project01
 Project01_EXTERNAL_OBJECTS =
@@ -139,9 +169,11 @@ Project01: CMakeFiles/Project01.dir/Project01.cpp.o
 Project01: CMakeFiles/Project01.dir/SlotMachine.cpp.o
 Project01: CMakeFiles/Project01.dir/Player.cpp.o
 Project01: CMakeFiles/Project01.dir/Game.cpp.o
+Project01: CMakeFiles/Project01.dir/blackjack.cpp.o
+Project01: CMakeFiles/Project01.dir/Cards.cpp.o
 Project01: CMakeFiles/Project01.dir/build.make
 Project01: CMakeFiles/Project01.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/michaelscoleri/Documents/Coding/Personal/casino_project/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Project01"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/michaelscoleri/Documents/Coding/Personal/C++/casino_project/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Project01"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Project01.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -153,6 +185,6 @@ CMakeFiles/Project01.dir/clean:
 .PHONY : CMakeFiles/Project01.dir/clean
 
 CMakeFiles/Project01.dir/depend:
-	cd /Users/michaelscoleri/Documents/Coding/Personal/casino_project && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/michaelscoleri/Documents/Coding/Personal/casino_project /Users/michaelscoleri/Documents/Coding/Personal/casino_project /Users/michaelscoleri/Documents/Coding/Personal/casino_project /Users/michaelscoleri/Documents/Coding/Personal/casino_project /Users/michaelscoleri/Documents/Coding/Personal/casino_project/CMakeFiles/Project01.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/michaelscoleri/Documents/Coding/Personal/C++/casino_project && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/michaelscoleri/Documents/Coding/Personal/C++/casino_project /Users/michaelscoleri/Documents/Coding/Personal/C++/casino_project /Users/michaelscoleri/Documents/Coding/Personal/C++/casino_project /Users/michaelscoleri/Documents/Coding/Personal/C++/casino_project /Users/michaelscoleri/Documents/Coding/Personal/C++/casino_project/CMakeFiles/Project01.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Project01.dir/depend
 

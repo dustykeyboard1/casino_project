@@ -1,5 +1,11 @@
 #include "Player.h"
 
+// Player::Player() {
+//     _wager = 0;
+//     _balance = 0;
+//     _start = 0;
+// }
+
 void Player::set_balance() {
     cout << "How much would you like to enter" << endl;
     cin >> _balance;
