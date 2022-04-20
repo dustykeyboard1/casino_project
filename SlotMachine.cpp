@@ -6,6 +6,8 @@ size_t SlotMachine::play_game(size_t _wager) {
         clear_numbers();
         generate_winning_numbers();
         spin();
+        cout << "Your Numbers are: ";
+        print_numbers(_playercombo);
         result();
         return calculate_new_balance(_wager);
 }
@@ -36,22 +38,24 @@ size_t SlotMachine::result() {
 }
 
 size_t SlotMachine::calculate_new_balance(size_t _wager) {
+    size_t winnings = 0;
     if(_occurences <= 2) {
         cout << "Im sorry, you lost." << endl;
-        return 0;
     } else if (_occurences < 2 && _occurences >= 4) {
 
         cout << "Congradulations! You Won!" << endl;
-        cout << "You're winning numbers were ";
-        print_numbers(winning_numbers);
-        return 1.5 * _wager;
+        winnings = 1.5 * _wager;
+        cout << "You won: $" << winnings << endl;
     }
     else {
         cout << "Congradulations! You hit the jackpot!" << endl;
-        cout << "You're winning numbers were ";
-        print_numbers(winning_numbers);
-        return _wager * 10;
+        winnings = _wager * 10;
+        cout << "You won: $" << winnings << endl;
     }
+    cout << "The winning numbers were:";
+    print_numbers(_winningcombo);
+    return winnings;
+
 }
 
 void SlotMachine::print_numbers(vector<size_t> vect) {

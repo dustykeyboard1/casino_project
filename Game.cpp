@@ -30,7 +30,14 @@ void Game::slots() {
 }
 
 void Game::blackjack() {
-  Black.play_game();
+    Black.play_game();
+    char input;
+    cout << "Want to play again?" << endl;
+    cin >> input;
+    while (input == 'y') {
+        Black.play_game();
+        cin >> input;
+    }
 }
 
 void Game::enter_casino() {
